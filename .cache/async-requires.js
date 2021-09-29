@@ -1,0 +1,42 @@
+// prefer default export if available
+const preferDefault = m => m && m.default || m
+
+exports.components = {
+  "component---cache-dev-404-page-js": () => import("./dev-404-page.js" /* webpackChunkName: "component---cache-dev-404-page-js" */),
+  "component---src-pages-404-js": () => import("./../src/pages/404.js" /* webpackChunkName: "component---src-pages-404-js" */),
+  "component---src-pages-about-js": () => import("./../src/pages/about.js" /* webpackChunkName: "component---src-pages-about-js" */),
+  "component---src-pages-blog-details-js": () => import("./../src/pages/blog-details.js" /* webpackChunkName: "component---src-pages-blog-details-js" */),
+  "component---src-pages-blog-left-sidebar-js": () => import("./../src/pages/blog-left-sidebar.js" /* webpackChunkName: "component---src-pages-blog-left-sidebar-js" */),
+  "component---src-pages-blog-regular-js": () => import("./../src/pages/blog-regular.js" /* webpackChunkName: "component---src-pages-blog-regular-js" */),
+  "component---src-pages-blog-right-sidebar-js": () => import("./../src/pages/blog-right-sidebar.js" /* webpackChunkName: "component---src-pages-blog-right-sidebar-js" */),
+  "component---src-pages-career-details-js": () => import("./../src/pages/career-details.js" /* webpackChunkName: "component---src-pages-career-details-js" */),
+  "component---src-pages-career-js": () => import("./../src/pages/career.js" /* webpackChunkName: "component---src-pages-career-js" */),
+  "component---src-pages-case-study-details-js": () => import("./../src/pages/case-study-details.js" /* webpackChunkName: "component---src-pages-case-study-details-js" */),
+  "component---src-pages-case-study-js": () => import("./../src/pages/case-study.js" /* webpackChunkName: "component---src-pages-case-study-js" */),
+  "component---src-pages-coming-soon-2-js": () => import("./../src/pages/coming-soon-2.js" /* webpackChunkName: "component---src-pages-coming-soon-2-js" */),
+  "component---src-pages-coming-soon-js": () => import("./../src/pages/coming-soon.js" /* webpackChunkName: "component---src-pages-coming-soon-js" */),
+  "component---src-pages-contact-1-js": () => import("./../src/pages/contact-1.js" /* webpackChunkName: "component---src-pages-contact-1-js" */),
+  "component---src-pages-contact-2-js": () => import("./../src/pages/contact-2.js" /* webpackChunkName: "component---src-pages-contact-2-js" */),
+  "component---src-pages-contact-3-js": () => import("./../src/pages/contact-3.js" /* webpackChunkName: "component---src-pages-contact-3-js" */),
+  "component---src-pages-faq-js": () => import("./../src/pages/faq.js" /* webpackChunkName: "component---src-pages-faq-js" */),
+  "component---src-pages-index-js": () => import("./../src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
+  "component---src-pages-landing-2-js": () => import("./../src/pages/landing-2.js" /* webpackChunkName: "component---src-pages-landing-2-js" */),
+  "component---src-pages-landing-3-js": () => import("./../src/pages/landing-3.js" /* webpackChunkName: "component---src-pages-landing-3-js" */),
+  "component---src-pages-landing-4-js": () => import("./../src/pages/landing-4.js" /* webpackChunkName: "component---src-pages-landing-4-js" */),
+  "component---src-pages-landing-5-js": () => import("./../src/pages/landing-5.js" /* webpackChunkName: "component---src-pages-landing-5-js" */),
+  "component---src-pages-landing-6-js": () => import("./../src/pages/landing-6.js" /* webpackChunkName: "component---src-pages-landing-6-js" */),
+  "component---src-pages-landing-7-js": () => import("./../src/pages/landing-7.js" /* webpackChunkName: "component---src-pages-landing-7-js" */),
+  "component---src-pages-landing-8-js": () => import("./../src/pages/landing-8.js" /* webpackChunkName: "component---src-pages-landing-8-js" */),
+  "component---src-pages-pricing-1-js": () => import("./../src/pages/pricing-1.js" /* webpackChunkName: "component---src-pages-pricing-1-js" */),
+  "component---src-pages-pricing-2-js": () => import("./../src/pages/pricing-2.js" /* webpackChunkName: "component---src-pages-pricing-2-js" */),
+  "component---src-pages-reset-pass-bg-js": () => import("./../src/pages/reset-pass-bg.js" /* webpackChunkName: "component---src-pages-reset-pass-bg-js" */),
+  "component---src-pages-reset-pass-js": () => import("./../src/pages/reset-pass.js" /* webpackChunkName: "component---src-pages-reset-pass-js" */),
+  "component---src-pages-reviews-js": () => import("./../src/pages/reviews.js" /* webpackChunkName: "component---src-pages-reviews-js" */),
+  "component---src-pages-signin-bg-js": () => import("./../src/pages/signin-bg.js" /* webpackChunkName: "component---src-pages-signin-bg-js" */),
+  "component---src-pages-signin-js": () => import("./../src/pages/signin.js" /* webpackChunkName: "component---src-pages-signin-js" */),
+  "component---src-pages-signup-bg-js": () => import("./../src/pages/signup-bg.js" /* webpackChunkName: "component---src-pages-signup-bg-js" */),
+  "component---src-pages-signup-js": () => import("./../src/pages/signup.js" /* webpackChunkName: "component---src-pages-signup-js" */),
+  "component---src-pages-terms-conditions-js": () => import("./../src/pages/terms-conditions.js" /* webpackChunkName: "component---src-pages-terms-conditions-js" */),
+  "component---src-pages-thank-you-js": () => import("./../src/pages/thank-you.js" /* webpackChunkName: "component---src-pages-thank-you-js" */)
+}
+
